@@ -1,0 +1,257 @@
+.main{
+    background-color: rgb(0,1,22);
+    font-family: 'Roboto Slab', serif;
+    color:azure;
+    height: 1000px;
+}
+.Top{
+    position: fixed;
+    background-color: black;
+    margin-top: -10px;
+    height: 100px;
+    width: 100%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5%;   
+    padding-right: 5%;
+}
+.Logo{
+    letter-spacing: 1px;
+    cursor:pointer;
+    font-size: 35px;
+}
+span{
+    color: #ec2943;
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px 25px;
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: azure;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: #ec2943;
+    transition: 0.4s;
+}
+nav ul li a.active{
+    color:#ec2943;
+}
+.btn{
+    background-color: #ec2943;
+    color: azure;
+    text-decoration: none;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    padding: 10px 25px;
+}
+.btn:hover{
+    background-color: #b80a21;
+    color: azure;
+    transform: scale(1.2);
+}
+.images{
+    float:right;
+    margin-top: 50px;
+    height: 400px;
+    width: auto;
+}
+.content{
+    padding: 15% 5%;
+    padding-left:6%;
+}
+.content h4{
+    font-size: 40px;
+}
+.content h1{
+    font-size: 70px;
+}
+.content h3{
+    font-size: 50px;
+}
+.about{
+    display: flex;
+    justify-content: space-around;
+    padding: 2%;
+}
+.main1 img{
+    width:400px;
+    height: 500px;
+}
+.About-text{
+    padding-left: 5%;
+}
+.About-text h1{
+    font-size: 50px;
+    color: #b80a21;
+}
+.About-text h4{
+    font-size: 26px;
+}
+.About-text p{
+    font-size: 18px;
+}
+.btn1{
+    background-color: #ec2943;
+    color: azure;
+    text-decoration: none;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    padding: 10px 25px;
+    margin-top: 3%;
+    font-weight: bold;
+}
+.btn1:hover{
+    background-color: transparent;
+    border: 2px solid #ec2943;
+    color: azure;
+}
+.service{
+    padding: 2% auto;
+}
+.title h1{
+    font-size: 50px;
+    color: #b80a21;
+}
+.service{
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    height: 550px;
+}
+.card{
+    background-color: rgb(57, 53, 53);
+    padding: 20px 35px;
+    height: 500px;
+    width: 200px
+}
+
+.card i{
+    color: #b80a21;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+.card i:hover{
+    color: #ec2943;
+    font-size: 50px;
+    font-weight: bold;
+}
+.card h4{
+    font-size: 30px;
+    color: #ec2943;
+    text-align: center;
+}
+.card p{
+    font-size: 20px;
+    text-align: center;
+}
+.Contact-me{
+    margin-top: 2%;
+    text-align: center;
+    padding: 50px;
+    background-color: rgb(57, 53, 53);
+}
+.Contact-me p{
+    font-size: 30px;
+    text-align: center;
+    padding: 50px auto;
+}
+.footer{
+    text-align:center;
+    padding: 3%;
+}
+.footer h3{
+    font-size: 26px;
+    text-align: center;
+}
+.footer p{
+    font-size: 18px;
+    text-align: center;
+}
+.footer div{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+.fb i{
+    color: #2a19e6;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(57, 53, 53);
+    border-radius: 50%;
+    margin: 15px;
+}
+.fb i:hover{
+    background-color: #230ccf;
+    color: rgb(57, 53, 53);
+    font-weight: bold;
+}
+.inst i{
+    color: #641947;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(57, 53, 53);
+    border-radius: 50%;
+    margin: 15px;
+}
+.inst i:hover{
+    background-color: #8d386c;
+    color: rgb(57, 53, 53);
+    font-weight: bold;
+}
+.you i{
+    color: #b80a21;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(57, 53, 53);
+    border-radius: 50%;
+    margin: 15px;
+}
+.you i:hover{
+    background-color: #ec2943;
+    color: rgb(57, 53, 53);
+    font-weight: bold;
+}
+
+@media only screen and (max-width:1000px){
+    nav ul li{
+        display: inline-block;
+        padding: 10px 10px;
+        list-style-type: none;
+    }
+    .box{
+        display: block;
+        text-align: center;
+        height: Auto;
+    }
+    .card{
+        background-color: rgb(57, 53, 53);
+        align-self: center;
+        padding: 20px 35px;
+        height: 350px;
+        width: auto;
+        margin:2%;
+    }
+    .about{
+        display: inline;
+        align-items: center;
+    }
+    .main1 img{
+        width: 400px;
+        height: 500px;
+    }
+}
